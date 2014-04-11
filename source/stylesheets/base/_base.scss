@@ -1,0 +1,15 @@
+.container {
+  @include outer-container;
+  background-color: #000;
+
+  .uno {
+    @include span-columns(8);
+
+    background-color: red;
+  }
+
+  .dos {
+    @include span-columns(4);
+    background-color: blue;
+  }
+}
