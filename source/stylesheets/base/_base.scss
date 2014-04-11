@@ -1,15 +1,37 @@
+//Reset
+
+* {
+  margin: 0;
+  padding: 0;
+}
 .container {
   @include outer-container;
-  background-color: #000;
 
-  .uno {
-    @include span-columns(8);
+  max-width: 90em;
 
+  .header {
     background-color: red;
+    height: 6.25em;
   }
 
-  .dos {
-    @include span-columns(4);
+  .main-head {
     background-color: blue;
+    height: 35.3125em;
+  }
+
+  .services {
+    background-color: orange;
+    height: 32.5em;
+  }
+
+  .portfolio {
+    background-color: yellow;
+    height: 64.3725em;
+  }
+
+  .team {
+    background-color: brown;
+    height: 770px;
   }
 }
+
