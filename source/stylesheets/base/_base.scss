@@ -10,28 +10,42 @@
   max-width: 90em;
 
   .header {
-    background-color: red;
+
     height: 6.25em;
   }
 
   .main-head {
-    background-color: blue;
+    background-color: #D5D5D5;
     height: 35.3125em;
   }
 
   .services {
-    background-color: orange;
+
     height: 32.5em;
+    padding-left: 100px;
   }
 
   .portfolio {
-    background-color: yellow;
+
     height: 64.3725em;
+
   }
 
   .team {
     background-color: brown;
-    height: 770px;
+    height: 785px;
+  }
+  .buy {
+    background-color: #faf;
+    height: 732px;
+  }
+  .reference {
+    background-color: #aaa;
+    height: 474px;
+  }
+  .contact {
+    background-color: #441;
+    height: 690px;
   }
 }
 
