@@ -21,7 +21,7 @@
 
   .services {
     height: 32.5em;
-    padding-left: 100px;
+    padding-left: em(100);
   }
 
   .portfolio {
@@ -29,16 +29,16 @@
   }
 
   .team {
-    height: 700px;
+    height: em(700);
   }
   .buy {
-    height: 732px;
+    height: em(732);
   }
   .reference {
-    height: 474px;
+    height: em(474);
   }
   .contact {
-    height: 690px;
+    height: em(690);
   }
   // blog
   .main {
@@ -52,6 +52,3 @@
     background-color: black;
   }
 }
-
-
-

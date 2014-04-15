@@ -4,50 +4,48 @@
     color: #474747;
     font-family: 'Open Sans';
     font-weight: 400;
-    font-size: 40px;
+    font-size: em(40);
     text-align: center;
-    margin-top: 80px;
+    margin-top: em(80);
   }
   .person {
     display: inline-block;
-    margin-right: 10px;
-    margin-top: 90px;
+    margin-right: em(10);
+    margin-top: em(90);
     vertical-align: top;
-    width: 285px;
+    width: em(285);
     text-align: center;
 
     .picture {
       display: inline-block;
       background-color: #eeeef0;
-      height: 200px;
-      margin-top: 30px;
-      margin-left: 5px;
-      padding-top: 80px;
-      width: 200px;
+      height: em(200);
+      margin-top: em(30);
+      margin-left: em(5);
+      padding-top: em(80);
+      width: em(200);
       border-radius: 100%;
-      margin-bottom: 65px;
+      margin-bottom: em(65);
     }
 
     h3 {
 
       font-family: 'Open Sans';
       font-weight: 400;
-      font-size: 22px;
+      font-size: em(22);
 
       span {
-
-        font-size: 14px;
-
+        font-size: em(14);
       }
     }
     p {
       color: #5A5A5A;
       font-family: 'Open Sans';
-      font-size: 14px;
-      line-height: 20px;
-      margin-top: 20px;
-      padding-left: 10px;
-      width: 270px;
+      font-size: em(14);
+      line-height: em(20);
+      margin-top: em(20);
+      padding-left: em(10);
+      width: em(270);
     }
   }
 

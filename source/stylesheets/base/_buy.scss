@@ -1,22 +1,22 @@
 .buy {
   background-color: #f1f1f1;
   text-align: center;
-  padding-top: 120px;
+  padding-top: em(120);
 
   .plan {
 
     background-color: #f8f9fb;
     display: inline-block;
-    height: 515px;
-    margin-left: 35px;
+    height: em(515);
+    margin-left: em(35);
     vertical-align: top;
-    width: 365px;
+    width: em(365);
     h3 {
       background-color: #485460;
       color: #fff;
-      padding: 20px 0px;
+      padding: em(20) 0px;
       font-family: 'Open Sans';
-      font-size: 25px;
+      font-size: em(25);
       font-weight: 400;
 
     }
@@ -26,15 +26,15 @@
       display: block;
       border-bottom: 1px solid #f1f1f1;
       font-family: 'Open Sans';
-      font-size: 14px;
+      font-size: em(14);
       font-weight: 400;
-      padding: 11px 0px;
+      padding: em(11) 0px;
     }
     .price {
       color: #485460;
       background-color: #f8f9fb;
-      padding: 24px 0px;
-      font-size: 18px;
+      padding: em(24) 0px;
+      font-size: em(18);
     }
 
     .butbuy {
@@ -44,10 +44,10 @@
       border-radius: 3px;
       background-color: #788492;
       font-family: 'Open Sans';
-      font-size: 18px;
+      font-size: em(18);
       font-weight: 600;
-      margin-top: 50px;
-      padding: 5px 50px;
+      margin-top: em(50);
+      padding: em(5) em(50);
       text-decoration: none;
     }
     .blue {

@@ -1,24 +1,24 @@
 .portfolio {
   background-color: #f1f1f1;
   text-align: center;
-  padding-top: 45px;
+  padding-top: em(45);
 
   h2 {
-    font-size: 35px;
+    font-size: em(35);
     font-family: 'Open Sans';
   }
 
   .images {
 
-    margin-top: 30px;
+    margin-top: em(30);
     text-align: left;
-    padding-left: 105px;
+    padding-left: em(105);
 
     img {
       vertical-align: top;
       display: inline-block;
-      margin-left: 30px;
-      margin-top: 30px;
+      margin-left: em(30);
+      margin-top: em(30);
     }
 
   }
@@ -27,11 +27,11 @@
     display: inline-block;
     background-color: #49cbcd;
     border-radius: 5px;
-    padding: 15px 40px;
-    margin-top: 55px;
+    padding: em(15) em(40);
+    margin-top: em(55);
     font-family: 'Open Sans';
     font-weight: 600;
-    font-size: 25px;
+    font-size: em(25);
     text-decoration: none;
     color: #fff;
   }

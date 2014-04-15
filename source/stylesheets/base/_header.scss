@@ -1,7 +1,7 @@
 .logo {
   @include span-columns(6);
-  padding-left: 135px;
-  padding-top: 30px;
+  padding-left: em(135);
+  padding-top: em(30);
 }
 
 .nav {
@@ -10,16 +10,16 @@
 }
 
 li {
-  padding: 40px 20px;
+  padding: em(40) em(20);
   list-style: none;
-  margin-left: 20px;
+  margin-left: em(20);
   vertical-align: top;
   display: inline-block;
 
   a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: em(14);
   }
   a:visited {
     color: #000;

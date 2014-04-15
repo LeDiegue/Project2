@@ -1,29 +1,29 @@
 .service {
   display: inline-block;
-  height: 400px;
-  margin-top: 30px;
-  margin-left: 10px;
-  padding-top: 75px;
-  padding-left: 110px;
+  height: em(400);
+  margin-top: em(30);
+  margin-left: em(10);
+  padding-top: em(75);
+  padding-left: em(110);
   vertical-align: top;
-  width: 300px;
+  width: em(300);
 
   h2 {
     font-family: 'Open Sans';
-    margin-top: 35px;
-    margin-left: -70px;
-    font-size: 20px;
+    margin-top: em(35);
+    margin-left: em(-70);
+    font-size: em(20);
     text-align: center;
   }
   p {
     color: #5A5A5A;
     font-family: 'Open Sans';
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 30px;
-    margin-left: -70px;
+    font-size: em(14);
+    line-height: em(20);
+    margin-top: em(30);
+    margin-left: em(-70);
     text-align: center;
-    width: 260px;
+    width: em(260);
   }
 
   .readmore {
@@ -32,9 +32,9 @@
     border-radius: 5px;
     color: #fff;
     font-family: 'Open Sans';
-    font-size: 13px;
-    margin-top: 30px;
-    padding: 5px 20px;
+    font-size: em(13);
+    margin-top: em(30);
+    padding: em(5) em(20);
   }
 
   a {
