@@ -8,9 +8,10 @@ html
 
     /! Use title if it's in the page YAML frontmatter
     title == data.page.title || "The Middleman"
-
+    link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css"
     == stylesheet_link_tag "normalize", "all"
     == javascript_include_tag  "all"
 
   body class="#{page_classes}"
+
   == yield

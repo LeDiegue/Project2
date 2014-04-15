@@ -1,5 +1,7 @@
 .logo {
   @include span-columns(6);
+  padding-left: 135px;
+  padding-top: 30px;
 }
 
 .nav {
@@ -16,12 +18,24 @@ li {
 
   a {
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  }
+  a:visited {
+    color: #000;
   }
 }
 
 li:hover {
   border-bottom: 3px #0AB29C solid;
   background-color: #F8F8F8;
+
+  a {
+    color: #49cbcd;
+  }
+  a:visited {
+    color: #49cbcd;
+  }
 }
 .first {
     margin-left: 0px;
@@ -30,5 +44,11 @@ li:hover {
 .active {
   border-bottom: 3px #0AB29C solid;
   background-color: #F8F8F8;
+  a {
+    color: #49cbcd;
+  }
+  a:visited {
+    color: #49cbcd;
+  }
 }
 

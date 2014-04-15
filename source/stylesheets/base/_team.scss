@@ -1,0 +1,56 @@
+.team {
+    text-align: center;
+  h2 {
+    color: #474747;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+  }
+  .person {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 90px;
+    vertical-align: top;
+    width: 285px;
+    text-align: center;
+
+    .picture {
+      display: inline-block;
+      background-color: #eeeef0;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: 5px;
+      padding-top: 80px;
+      width: 200px;
+      border-radius: 100%;
+      margin-bottom: 65px;
+    }
+
+    h3 {
+
+      font-family: 'Open Sans';
+      font-weight: 400;
+      font-size: 22px;
+
+      span {
+
+        font-size: 14px;
+
+      }
+    }
+    p {
+      color: #5A5A5A;
+      font-family: 'Open Sans';
+      font-size: 14px;
+      line-height: 20px;
+      margin-top: 20px;
+      padding-left: 10px;
+      width: 270px;
+    }
+  }
+
+
+
+}

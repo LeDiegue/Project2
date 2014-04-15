@@ -1,26 +1,60 @@
 .main-head {
+  background-image: url(../images/banner.png);
   text-align: center;
   padding-top: 8.125em;
+  .layer {
+    height: 35.3125em;
+    background-color: #49cbcd;
+    margin-top: -8.125em;
+    opacity: 0.5;
+    padding-top: 8.125em;
+  }
 
-  h1 {
-    font-size: 3.75em;
-  }
-  p {
-    margin-top: 1.475em;
-    font-size: 1.3625em;
-  }
-  a {
-    display: inline-block;
-    margin-top: 70px;
-  }
-  .LearnBot {
-    border-radius: 5px;
-    border: 3px solid #fff;
-    font-size: 1.875em;
+  .text-layer {
 
-    padding: 10px 40px;
-    text-decoration: none;
+    position: relative;
+    margin-top: -440px;
+
+
+    h1 {
+      color: #fff;
+      font-size: 4.0em;
+      opacity: 1;
+    }
+    p {
+      color: #fff;
+      margin-top: 1.475em;
+      font-size: 1.60em;
+    }
+    a {
+      color: #fff;
+      display: inline-block;
+      margin-top: 70px;
+    }
+    .LearnBot {
+      border-radius: 5px;
+      border: 3px solid #fff;
+      font-size: 1.875em;
+
+      padding: 10px 40px;
+      text-decoration: none;
+    }
+    .but1 {
+      position: absolute;
+      left: 20px;
+      top: 75px;
+    }
+    .but2 {
+      position: absolute;
+      right: 20px;
+      top: 75px;
+    }
   }
+}
+
+.main-header {
+  background-color: red;
+  height: 170px;
 }
 
 

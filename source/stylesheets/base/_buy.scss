@@ -1,0 +1,64 @@
+.buy {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding-top: 120px;
+
+  .plan {
+
+    background-color: #f8f9fb;
+    display: inline-block;
+    height: 515px;
+    margin-left: 35px;
+    vertical-align: top;
+    width: 365px;
+    h3 {
+      background-color: #485460;
+      color: #fff;
+      padding: 20px 0px;
+      font-family: 'Open Sans';
+      font-size: 25px;
+      font-weight: 400;
+
+    }
+
+    span {
+      color: #485460;
+      display: block;
+      border-bottom: 1px solid #f1f1f1;
+      font-family: 'Open Sans';
+      font-size: 14px;
+      font-weight: 400;
+      padding: 11px 0px;
+    }
+    .price {
+      color: #485460;
+      background-color: #f8f9fb;
+      padding: 24px 0px;
+      font-size: 18px;
+    }
+
+    .butbuy {
+
+      display: inline-block;
+      color: #fff;
+      border-radius: 3px;
+      background-color: #788492;
+      font-family: 'Open Sans';
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 50px;
+      padding: 5px 50px;
+      text-decoration: none;
+    }
+    .blue {
+      background-color: #49cbcd;
+    }
+
+  }
+
+  .first {
+    margin-left: 0;
+  }
+
+
+}

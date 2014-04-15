@@ -1,18 +1,18 @@
 //Reset
-
 * {
   margin: 0;
   padding: 0;
 }
+
 .container {
   @include outer-container;
 
   max-width: 90em;
 
   .header {
-
     height: 6.25em;
   }
+
 
   .main-head {
     background-color: #D5D5D5;
@@ -20,32 +20,38 @@
   }
 
   .services {
-
     height: 32.5em;
     padding-left: 100px;
   }
 
   .portfolio {
-
     height: 64.3725em;
-
   }
 
   .team {
-    background-color: brown;
-    height: 785px;
+    height: 700px;
   }
   .buy {
-    background-color: #faf;
     height: 732px;
   }
   .reference {
-    background-color: #aaa;
     height: 474px;
   }
   .contact {
-    background-color: #441;
     height: 690px;
   }
+  // blog
+  .main {
+    @include span-columns(9);
+
+    background-color: blue;
+  }
+  .aside {
+    @include span-columns(3);
+    @include omega();
+    background-color: black;
+  }
 }
+
+
 

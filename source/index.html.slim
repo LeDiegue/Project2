@@ -1,61 +1,184 @@
 .container
-  .header
-    .logo
-      p Logo
-
-    .nav
-      ul
-        li.first.active
-          a href="#" Home
-        li
-          a href="#" Service
-        li
-          a href="#" Portfolio
-        li
-          a href="#" Team
-        li
-          a href="#" Blog
-        li
-          a href="#" Contact
+  == partial "partials/header"
 
   .main-head
-    h1  This is a main heading
-    p
-      | Lorem ipsum is a simply dummy text
-      br
-        | of de printing
+    .layer
+    .text-layer
 
-    a.LearnBot href="#" Learn More
+      a.but1 href="#"
+        img src="images/FleBanner2.png"
+      a.but2 href="#"
+        img src="images/FleBanner1.png"
+
+      h1  This is a main heading
+      p
+        | Lorem ipsum is a simply dummy text
+        br
+          | of de printing
+
+      a.LearnBot href="#" Learn More
+
+
+
   .services
     .service
+      img src="images/services/1.png"
+      h2 Custom Designs
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+      a.readmore href="#" Read More
 
     .service
+      img src="images/services/2.png"
+      h2 Web Designs
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+      a.readmore href="#" Read More
 
     .service
+      img src="images/services/3.png"
+      h2 Blog Pages
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+      a.readmore href="#" Read More
 
     .service
+      img src="images/services/4.png"
+      h2 Mobile friendly
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+      a.readmore href="#" Read More
 
   .portfolio
     h2  Portfolio
     .images
-      img src="http://placehold.it/370x315"
-      img src="http://placehold.it/370x315"
-      img src="http://placehold.it/370x315"
-      img src="http://placehold.it/370x315"
-      img src="http://placehold.it/370x315"
-      img src="http://placehold.it/370x315"
+      img src="images/portfolio/1.png"
+      img src="images/portfolio/2.png"
+      img src="images/portfolio/3.png"
+      img src="images/portfolio/4.png"
+      img src="images/portfolio/5.png"
+      img src="images/portfolio/6.png"
+    a.PortfolioButon href="#" See all works
 
 
   .team
-    p Team
+    h2  The Team
+    .person
+      .picture
+      h3
+        | Adrian Thomas
+        br
+          span
+            | CEO & Founder
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+
+    .person
+      .picture
+        img src="images/cruz.png"
+      h3
+        | Narate Ketram
+        br
+          span
+            | Creative Director
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+
+    .person
+      .picture
+      h3
+        | Fernando Comet
+        br
+          span
+            | CEO & Founder
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+
+    .person
+      .picture
+      h3
+        | Adedayo Saheed
+        br
+          span
+            | Creative Director
+      p
+        | Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        br
+          |  Lorem Ipsum has been
+
 
   .buy
-    p buy
+    .plan.first
+      h3 Basic
+      span.price $5.01/ MONTH
+      span Loren impsum
+      span Dolor sit amet, consect
+      span Adipisicing elit
+      span Proin commodo turpis
+      span lacus pulvinarvel
+      span Prnade nisi pretium.
+      a.butbuy href="#" Buy now
 
+    .plan
+      h3.blue Pro
+      span.price $10.01/ MONTH
+      span Loren impsum
+      span Dolor sit amet, consect
+      span Adipisicing elit
+      span Proin commodo turpis
+      span lacus pulvinarvel
+      span Prnade nisi pretium.
+      a.blue.butbuy href="#" Buy now
+    .plan
+      h3 Premium
+      span.price $20.01/ MONTH
+      span Loren impsum
+      span Dolor sit amet, consect
+      span Adipisicing elit
+      span Proin commodo turpis
+      span lacus pulvinarvel
+      span Prnade nisi pretium.
+      a.butbuy href="#" Buy now
   .reference
-    p referencia
+    .testimonio
+      h2  What Clients Say
+      p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+      p John Dove
+    a.butFle1 href="#"
+      img src="images/fle1.png"
+    a.butFle2 href="#"
+      img src="images/fle2.png"
+
 
   .contact
-    p Contact
+    h2 Contact Us
+    .means
+      h3  Get in touch witch us
+      p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      p.date
+        | Cssauthor.com
+        br
+        | +XX-XXX - XXXX - XX
+        br
+        | info@cssauthor.com
+    .form
+      form action="#"
+        input.name placeholder="Name"
+        input.email placeholder="Email"
+        textarea placeholder="Message"
 
-
+      a.butform href="#" Send

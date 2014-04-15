@@ -1,0 +1,42 @@
+.reference {
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+
+  .testimonio {
+
+    width: 700px;
+    text-align: center;
+    margin-top: 140px;
+    display: inline-block;
+
+    h2 {
+      font-family: 'Open Sans';
+      font-size: 40px;
+      font-weight: 400;
+
+    }
+    p {
+      color: #B1B1B1;
+      font-family: 'Open Sans';
+      font-size: 18px;
+      font-weight: 400;
+      margin-top: 30px;
+    }
+
+  }
+  .butFle1 {
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+  }
+  .butFle2 {
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+  }
+
+
+}
